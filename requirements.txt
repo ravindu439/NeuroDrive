@@ -1,0 +1,38 @@
+# DeepVision - Model Training Requirements
+# Python 3.8+ required
+
+# Core deep learning and YOLOv8
+ultralytics>=8.0.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Image processing and visualization
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0
+Pillow>=10.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Data handling
+numpy>=1.24.0
+pandas>=2.0.0
+PyYAML>=6.0
+
+# Jupyter notebooks
+jupyter>=1.0.0
+notebook>=7.0.0
+ipywidgets>=8.0.0
+
+# Progress bars and utilities
+tqdm>=4.65.0
+
+# GPU acceleration (optional, install separately if needed)
+# For CUDA 11.8:
+# torch==2.0.0+cu118 torchvision==0.15.0+cu118 --index-url https://download.pytorch.org/whl/cu118
+# For CUDA 12.1:
+# torch>=2.1.0 torchvision>=0.16.0
+
+# Development and debugging
+ipython>=8.12.0
+
+# Note: For the Streamlit inference app, see VehicleDetectionSystem/requirements.txt
